@@ -1,0 +1,22 @@
+PODS:
+  - bumble_scrollbar (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - bumble_scrollbar (from `.symlinks/plugins/bumble_scrollbar/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  bumble_scrollbar:
+    :path: ".symlinks/plugins/bumble_scrollbar/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  bumble_scrollbar: d4455778bfdb150b6c15ac65a0a2694c01f11606
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.2
