@@ -1,15 +1,100 @@
-# bumble_scrollbar
+[![Build Status]()](https://github.com/dart-lang/logging/actions?query=workflow%3A"Dart+CI"+branch%3Amaster)
+[![Pub](https://img.shields.io/pub/v/bumble_scrollbar.svg)](https://pub.dev/packages/bumble_scrollbar)
 
-A new flutter plugin project.
+## Bumble Scrollbar
 
-## Getting Started
+```dart
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  BumbleScrollbar(
+    child: Container(
+            color: Colors.grey,
+            child: Column(
+                    children: List.generate(
+                    30,
+                    (index) => Container(
+                            color: Colors.grey,
+                            //color: getRandomColor(),
+                            height: 500,
+                          ),),),),
+        ),
+      )
+
+
+
+   BumbleScrollbar({
+    required this.child,
+    this.strokeWidth = 6,
+    this.strokeHeight = 100,
+    this.backgroundColor = Colors.black12,
+    this.thumbColor = Colors.white,
+    this.alignment = Alignment.topRight,
+    this.padding = EdgeInsets.zero,
+    this.strokeConnerType = StrokeConnerType.rounded,
+    this.showScrollbar = true,
+    this.scrollbarMargin = const EdgeInsets.all(8.0),
+  })
+
+
+
+
+```
+
+
+
+
+Here is an example of logging a debug message and an error:
+
+```dart
+import 'dart:math';
+
+import 'package:bumble_scrollbar/bumble_scrollbar.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  Color getRandomColor() {
+    return Color.fromARGB(255, Random().nextInt(255), Random().nextInt(255),
+        Random().nextInt(255));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Bumble Like Scrollbar'),
+        ),
+        body: BumbleScrollbar(
+          child: Container(
+              color: Colors.grey,
+              child: Column(
+                  children: List.generate(
+                      30,
+                      (index) => Container(
+                            color: getRandomColor(),
+                            height: 500,
+                          )))),
+        ),
+      ),
+    );
+  }
+}
+```
+
 
