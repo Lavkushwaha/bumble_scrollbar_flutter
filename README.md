@@ -4,7 +4,7 @@
 
 ## Bumble Like Scrollbar
 
-![The example app running in iOS](https://github.com/Lavkushwaha/bumble_scrollbar_flutter/demo_ipod.gif?raw=true)
+![The example app running in iOS](https://github.com/Lavkushwaha/bumble_scrollbar_flutter/bumble_scrollbar.gif?raw=true)
 
 
 ```dart
