@@ -1,7 +1,8 @@
 name: bumble_scrollbar
 description: A new flutter plugin project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Lavkushwaha/bumble_scrollbar_flutter
+repository: https://github.com/Lavkushwaha/bumble_scrollbar_flutter
 
 environment:
   sdk: ">=2.15.0 <3.0.0"
