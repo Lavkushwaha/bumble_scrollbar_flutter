@@ -3,7 +3,7 @@
 
 
 
-## Bumble Scrollbar
+## Bumble Like Scrollbar
 
 ![The example app running in iOS](https://github.com/flutter/plugins/blob/master/packages/video_player/video_player/doc/demo_ipod.gif?raw=true)
 
