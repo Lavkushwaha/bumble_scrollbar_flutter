@@ -1,7 +1,12 @@
 [![Build Status]()](https://github.com/dart-lang/logging/actions?query=workflow%3A"Dart+CI"+branch%3Amaster)
 [![Pub](https://img.shields.io/pub/v/bumble_scrollbar.svg)](https://pub.dev/packages/bumble_scrollbar)
 
+
+
 ## Bumble Scrollbar
+
+![The example app running in iOS](https://github.com/flutter/plugins/blob/master/packages/video_player/video_player/doc/demo_ipod.gif?raw=true)
+
 
 ```dart
 
