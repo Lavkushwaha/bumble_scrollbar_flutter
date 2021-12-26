@@ -2,6 +2,17 @@ import 'package:flutter/material.dart';
 
 enum StrokeConnerType { rounded, sharp }
 
+/// child,
+/// strokeWidth = 6,
+/// strokeHeight = 100,
+/// backgroundColor = Colors.black12,
+/// thumbColor = Colors.white,
+/// alignment = Alignment.topRight,
+/// padding = EdgeInsets.zero,
+/// strokeConnerType = StrokeConnerType.rounded,
+/// showScrollbar = true,
+/// scrollbarMargin = const EdgeInsets.all(8.0),
+
 class BumbleScrollbar extends StatefulWidget {
   const BumbleScrollbar({
     Key? key,
